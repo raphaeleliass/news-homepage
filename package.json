@@ -1,0 +1,15 @@
+{
+  "name": "news-homepage",
+  "version": "1.0.0",
+  "description": "![Design preview for the News homepage](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i src/styles/input.css -o src/styles/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier-plugin-tailwindcss": "^0.5.13"
+  }
+}

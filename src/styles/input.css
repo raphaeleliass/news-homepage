@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth;
+}
+
+.mobile-nav {
+  @apply fixed right-0 top-0 z-50 min-h-screen w-2/3 translate-x-full bg-white transition-all lg:hidden;
+}
+.mobile-nav.active {
+  @apply fixed right-0 top-0 z-50 min-h-screen w-2/3 translate-x-0 bg-white transition-all lg:hidden;
+}
+
+.mobile-links {
+  @apply p-6 text-lg transition-all hover:text-primarySoftOrange md:text-4xl;
+}
+
+.btn-red {
+  @apply bg-primarySoftRed px-6 py-3 text-sm font-Inter700 text-white transition-all;
+}
+
+.cards {
+  @apply flex flex-col gap-4 p-4;
+}
